@@ -1,0 +1,14 @@
+// Colors
+$primary: #FF4400;
+$white: #FFFFFF;
+
+// Dialog
+$modal-card-head-background-color: $white;
+$modal-card-title-size: 16px;
+$modal-card-head-radius: 8px;
+$modal-card-foot-radius: 8px;
+$modal-card-foot-border-top: none;
+
+// Bulma
+@import "~bulma";
+@import "~buefy/src/scss/buefy";

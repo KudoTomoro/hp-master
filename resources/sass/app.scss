@@ -1,0 +1,22 @@
+@import "./bulma";
+
+@import "foundation/reset";
+@import "foundation/fonts";
+@import "foundation/base";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "object/component/button";
+@import "object/component/body";
+@import "object/component/service";
+
+@import "object/project/lp";
+@import "object/project/index";
+@import "object/project/products";
+@import "object/project/company";
+@import "object/project/contact";
+@import "object/project/recruit";
+@import "object/project/error";
+
+@import "./slick";
