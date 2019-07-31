@@ -1868,7 +1868,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_recaptcha_v3__WEBPACK_IMPORTED_MODULE_1__["VueReCaptcha"], {
-  siteKey: "6LeGE6wUAAAAAIhdqROiQxBFkTZdbIe6EKmETpAF",
+  siteKey: "",
   useRecaptchaNet: true
 });
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -80809,8 +80809,8 @@ jQuery(function ($) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/r-hashimoto/techtec/github/hp/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/r-hashimoto/techtec/github/hp/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/user/Desktop/hp-master/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/user/Desktop/hp-master/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

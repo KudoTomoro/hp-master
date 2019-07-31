@@ -1,7 +1,8 @@
 .c-line__button {
     width: 240px;
     height: 56px;
-    border: 1px solid #FF4400;
+    border: 1px solid #FF6A00;
+    border-radius:8px;
     text-align: center;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -12,14 +13,14 @@
         font-weight: 500;
         line-height: 2;
         letter-spacing: 0.8px;
-        color: #FF4400;
+        color: #FF6A00;
         &:hover {
-            color: #FF4400;
+            color: #ff8800;
         }
     }
 
     &:hover {
-        background-color: #FF4400;
+        background-color: #FF6A00;
         & a {
             color: #FFF;
         }
@@ -31,7 +32,7 @@
             color: #FFF;
         }
         &:hover {
-            background: #FF4400;
+            background: #ff8800;
             border: none;
         }
     }
