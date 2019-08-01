@@ -13506,9 +13506,8 @@ body.fixed {
   }
 
   .l-recruit {
-    background: url("../images/img_top_rec.png") no-repeat center;
-    background-size: 100% auto;
-    padding: 120px 0 100px;
+    background: linear-gradient(-135deg, #FCB01E, #ED4219);
+    padding: 60px 0 24px;
     text-align: center;
   }
   .l-recruit__title {
@@ -13524,9 +13523,13 @@ body.fixed {
     line-height: 2;
     color: #FFF;
   }
-  .l-recruit__button {
-    width: 320px;
-    margin: 64px auto 0;
+  .l-recruit__banner__pc {
+    width: 400px;
+    height: auto;
+    margin: 52px auto;
+  }
+  .l-recruit__banner__sp {
+    display: none;
   }
 
   .l-contact {
@@ -14011,9 +14014,8 @@ body.fixed {
   }
 
   .l-recruit {
-    background: url("../images/img_top_rec_sp.png") no-repeat center;
-    background-size: 100% auto;
-    padding: 80px 24px;
+    background: linear-gradient(-135deg, #FCB01E, #ED4219);
+    padding: 60px 24px 12px;
     text-align: center;
   }
   .l-recruit__title {
@@ -14023,16 +14025,24 @@ body.fixed {
     color: #FFF;
   }
   .l-recruit__desc {
-    text-align: left;
+    width: 340px;
+    text-align: center;
     margin: 40px 0 0;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 2;
+    letter-spacing: 0.1px;
     color: #FFF;
   }
-  .l-recruit__button {
-    width: 240px;
-    margin: 40px auto 0;
+  .l-recruit__banner__pc {
+    display: none;
+    width: 320px;
+    height: auto;
+  }
+  .l-recruit__banner__sp {
+    margin: 36px auto;
+    width: 200px;
+    height: auto;
   }
 
   .l-contact {
@@ -14704,6 +14714,13 @@ body.fixed {
   }
 }
 @media screen and (min-width: 769px) {
+  .recruit_title {
+    padding: 120px 0 48px 0;
+  }
+  .recruit_title_middle {
+    display: none;
+  }
+
   .i-recruit {
     background: url("../images/bg_vision.png") no-repeat 0 0;
     background-size: 100% auto;
@@ -14723,11 +14740,12 @@ body.fixed {
     margin: 0 80px;
     padding: 64px;
     background-color: #FFF;
-    box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
   .i-recruit__vision__title {
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 1.6px;
     color: #000;
@@ -14735,56 +14753,117 @@ body.fixed {
   .i-recruit__vision__text {
     margin: 24px 0 0;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 2;
     letter-spacing: 0.8px;
     color: #000;
   }
   .i-recruit__value {
+    margin: 80px 0;
     padding: 80px 0;
+    background: linear-gradient(-135deg, #FCB01E, #ED4219);
   }
-  .i-recruit__value_list {
+  .i-recruit__value_title {
+    margin: 0 80px;
+    float: left;
+  }
+  .i-recruit__value__composes {
+    background-color: #FFFFFF;
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    margin: 0 64px;
+    margin-left: auto;
+  }
+  .i-recruit__value__composes_list {
     position: relative;
-    text-align: center;
-    min-height: 320px;
-    margin: 64px 0 0;
-    padding: 48px 0;
+    text-align: left;
+    margin: 0 64px;
+    padding-top: 48px;
   }
-  .i-recruit__value_list_title {
-    font-family: "Courgette", "Avenir next", sans-serif;
-    font-size: 80px;
-    line-height: 120px;
-    letter-spacing: 6.4px;
+  .i-recruit__value__composes_list_title {
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
     color: #FF6A00;
   }
-  .i-recruit__value_list_text {
-    margin: 24px 0 0;
-    font-size: 20px;
-    font-weight: 700;
+  .i-recruit__value__composes_list_text {
+    margin: 12px 0 0;
+    font-size: 18px;
+    font-weight: 200;
     line-height: 2;
-    letter-spacing: 1.6px;
+    letter-spacing: 0.4px;
     color: #000;
   }
-  .i-recruit__value_list_bg {
+  .i-recruit__value__composes_list_bg {
     position: absolute;
     z-index: -1;
     top: 0;
     left: -24px;
     text-align: left;
-    font-size: 160px;
+    font-size: 80px;
     font-style: italic;
     font-weight: 800;
     line-height: 160px;
     letter-spacing: 24px;
     color: #FAFAFA;
   }
+  .i-recruit .recruit__title_large {
+    margin-top: 48px;
+  }
+  .i-recruit .blank {
+    height: 56px;
+  }
+  .i-recruit__technologystack__content {
+    margin: 60px 80px 40px;
+  }
+  .i-recruit__technologystack__category {
+    width: auto;
+    height: 200px;
+  }
+  .i-recruit__technologystack__category_title {
+    font-weight: 600;
+  }
+  .i-recruit__technologystack__item {
+    height: 150px;
+    width: 100px;
+    padding-top: 10px;
+    border-top: solid #FF6A00;
+    float: left;
+  }
+  .i-recruit__technologystack__item__logo {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+  .i-recruit__technologystack__item__name {
+    text-align: center;
+    font-size: 12px;
+  }
+  .i-recruit .development {
+    float: left;
+    margin-right: 36px;
+  }
+  .i-recruit .cloudwatch_sp {
+    display: none;
+  }
+  .i-recruit .lf_sp {
+    display: none;
+  }
+  .i-recruit .gd_sp {
+    display: none;
+  }
   .i-recruit__team {
-    width: 1080px;
+    width: 960px;
     margin: auto;
     padding: 0 0 80px;
   }
   .i-recruit__team__content {
-    margin: 0 -16px;
+    width: 960px;
+    margin: 0 60px;
+    padding-top: 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -14793,7 +14872,7 @@ body.fixed {
   .i-recruit__team__list {
     width: calc((100% - 128px) / 4);
     height: auto;
-    margin: 80px 16px 0;
+    margin: 12px 0;
     text-align: center;
     cursor: pointer;
   }
@@ -14801,10 +14880,8 @@ body.fixed {
     width: 120px;
     height: 120px;
     margin: auto;
-    padding: 4px;
-    background-color: #FFF;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
     border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
@@ -14819,8 +14896,8 @@ body.fixed {
   }
   .i-recruit__team__role {
     margin: 4px 0 0;
-    font-size: 13px;
-    letter-spacing: 0.8px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
     color: #666;
   }
   .i-recruit__team__modal {
@@ -14851,12 +14928,12 @@ body.fixed {
   .i-recruit__team__modal_info {
     display: flex;
   }
-  .i-recruit__team__modal_thumb {
+  .i-recruit__team__modal__thumb {
     width: 120px;
     height: 120px;
-    margin: 0 24px 0 0;
+    margin: 0 4px 0 0;
   }
-  .i-recruit__team__modal_thumb_img {
+  .i-recruit__team__modal__thumb_img {
     width: calc(100% - 8px);
     height: calc(100% - 8px);
     padding: 4px;
@@ -14866,7 +14943,7 @@ body.fixed {
        object-position: center;
     background-color: #FFF;
     border-radius: 50%;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
   .i-recruit__team__modal_text {
     width: calc(100% - 144px);
@@ -14892,22 +14969,22 @@ body.fixed {
   .i-recruit__team__modal_sns_item {
     margin: 0 12px 0 0;
   }
-  .i-recruit__team__modal_content {
+  .i-recruit__team__modal__content {
     max-height: 112px;
     overflow-y: scroll;
-    margin: 32px -4px 0;
+    margin: 32px 80px 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 2;
     color: #333;
   }
-  .i-recruit__team__modal_content > p {
+  .i-recruit__team__modal__content > p {
     padding: 0 4px;
   }
-  .i-recruit__team__modal_content::-webkit-scrollbar {
+  .i-recruit__team__modal__content::-webkit-scrollbar {
     width: 2px;
   }
-  .i-recruit__team__modal_content::-webkit-scrollbar-thumb {
+  .i-recruit__team__modal__content::-webkit-scrollbar-thumb {
     background-color: #FF6A00;
     border-radius: 4px;
   }
@@ -14919,11 +14996,24 @@ body.fixed {
     margin: 64px 80px 0;
     padding: 80px;
     background-color: #FFF;
-    box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 8px;
+  }
+  .i-recruit__message__content__text {
+    width: 600px;
+    margin-left: auto;
+  }
+  .i-recruit__message_img {
+    width: 300px;
+    height: auto;
+    float: left;
+  }
+  .i-recruit__message_img_picture {
+    border-radius: 8px;
   }
   .i-recruit__message__name {
-    margin: 48px 0 0;
-    text-align: right;
+    margin: 24px 0 0;
+    text-align: center;
     font-size: 14px;
     font-style: italic;
     font-weight: 400;
@@ -14932,14 +15022,14 @@ body.fixed {
   }
   .i-recruit__message__heading {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 1.6px;
     color: #000;
   }
   .i-recruit__message__desc {
     margin: 24px 0 0;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 200;
     line-height: 2;
     color: #000;
   }
@@ -14954,14 +15044,17 @@ body.fixed {
   .i-recruit__position__list {
     width: calc((100% - 128px) / 4);
     height: auto;
-    margin: 32px 32px 0 0;
+    margin: 32px 16px 0 16px;
     padding: 32px;
     background-color: #FAFAFA;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 8px;
   }
   .i-recruit__position__list__title {
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 1.6px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
     color: #000;
   }
   .i-recruit__position__list__item {
@@ -14971,27 +15064,36 @@ body.fixed {
     margin: 32px 0 0;
   }
   .i-recruit__position__list__link {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.8px;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 0.2px;
     color: #333;
-    text-decoration: underline;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
   }
   .i-recruit__position__list__link:hover {
     color: #FF6A00;
   }
 }
 @media screen and (max-width: 768px) {
+  .recruit_title_large {
+    display: none;
+  }
+
+  .recruit_title {
+    padding-bottom: 24px;
+  }
+
   .i-recruit {
     background: url("../images/bg_vision_sp.png") no-repeat 0 0;
-    background-size: 100% auto;
+    background-size: 375px 375px;
   }
   .i-recruit__vision {
     width: calc(100% - 24px);
     margin: 0 12px;
     padding: 32px 24px;
     background-color: #FFF;
-    box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
   .i-recruit__vision__title {
     font-size: 20px;
@@ -15012,23 +15114,23 @@ body.fixed {
     padding: 64px 24px;
     overflow-x: hidden;
   }
-  .i-recruit__value_list {
+  .i-recruit__value__composes_list {
     position: relative;
     text-align: center;
     margin: 24px 0 0;
     padding: 24px 0;
   }
-  .i-recruit__value_list:nth-child(2) {
+  .i-recruit__value__composes_list:nth-child(2) {
     margin: 48px 0 0;
   }
-  .i-recruit__value_list_title {
+  .i-recruit__value__composes_list_title {
     font-family: "Courgette", "Avenir next", sans-serif;
     font-size: 32px;
     line-height: 56px;
     letter-spacing: 2.4px;
     color: #FF6A00;
   }
-  .i-recruit__value_list_text {
+  .i-recruit__value__composes_list_text {
     margin: 16px 0 0;
     font-size: 16px;
     font-weight: 700;
@@ -15036,7 +15138,7 @@ body.fixed {
     letter-spacing: 0.8px;
     color: #000;
   }
-  .i-recruit__value_list_bg {
+  .i-recruit__value__composes_list_bg {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -15051,6 +15153,58 @@ body.fixed {
     letter-spacing: 16px;
     color: #FAFAFA;
   }
+  .i-recruit__technologystack__content {
+    margin: 20px 16px;
+  }
+  .i-recruit__technologystack__category {
+    margin: 10px 0;
+  }
+  .i-recruit__technologystack__category_title {
+    font-weight: 600;
+    border-bottom: solid #FF6A00;
+  }
+  .i-recruit__technologystack__item {
+    height: 80px;
+    width: 52px;
+    padding-top: 10px;
+    float: left;
+  }
+  .i-recruit__technologystack__item__logo {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+  .i-recruit__technologystack__item__name {
+    text-align: center;
+    font-size: 8px;
+  }
+  .i-recruit .development {
+    width: 320px;
+    height: 120px;
+  }
+  .i-recruit .support {
+    width: 320px;
+    height: 120px;
+  }
+  .i-recruit .infra {
+    width: 320px;
+    height: 200px;
+  }
+  .i-recruit .business_design {
+    width: 320px;
+    height: 200px;
+  }
+  .i-recruit .cloudwatch_pc {
+    display: none;
+  }
+  .i-recruit .lf_pc {
+    display: none;
+  }
+  .i-recruit .gd_pc {
+    display: none;
+  }
   .i-recruit__team {
     margin: auto;
     padding: 0 24px 64px;
@@ -15064,16 +15218,14 @@ body.fixed {
   .i-recruit__team__list {
     width: calc((100% - 16px) / 2);
     height: auto;
-    margin: 64px 0 0;
+    margin: 32px 0 0;
     text-align: center;
   }
   .i-recruit__team__thumb {
     width: 120px;
     height: 120px;
     margin: auto;
-    padding: 4px;
-    background-color: #FFF;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     border-radius: 50%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -15090,7 +15242,7 @@ body.fixed {
   .i-recruit__team__role {
     margin: 8px 0 0;
     font-size: 12px;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.4px;
     color: #666;
   }
   .i-recruit__team__modal {
@@ -15127,14 +15279,12 @@ body.fixed {
     width: calc(100% - 8px);
     height: calc(100% - 8px);
     margin: auto;
-    padding: 4px;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
-    background-color: #FFF;
     border-radius: 50%;
-    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
   .i-recruit__team__modal_text {
     margin: 8px 0 0;
@@ -15189,7 +15339,7 @@ body.fixed {
     margin: 32px 12px 0;
     padding: 40px 24px;
     background-color: #FFF;
-    box-shadow: 0 4px 48px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
   .i-recruit__message__name {
     margin: 32px 0 0;
@@ -15225,6 +15375,7 @@ body.fixed {
     margin: 24px 0 0;
     padding: 24px;
     background-color: #FAFAFA;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   }
   .i-recruit__position__list__title {
     font-size: 20px;

@@ -99,10 +99,7 @@
                             <a class="c-line__button__text" target="_blank"
                                 href="https://pol.techtec.world">サービスサイトへ</a>
                         </div>
-                        <!-- <div class='c-line__button c-line__button_blank  p-product__content__link'>
-                            <a class="c-line__button__text" target="_blank"
-                                href="https://pol.techtec.world">サービスサイトへ</a>
-                        </div> -->
+
                     </div>
                     <div class='l-product__content__pol__image'>
                         <img alt="PoL(ポル)のデバイス"
@@ -115,29 +112,6 @@
                 </a>
             </div>
 
-            <!-- <div class='l-product__content__cell l-product__content__tech__cell'>
-                <a href='https://www.techtec.site/' target='_blank'>
-                    <div class='l-product__content__text l-product__content__tech__text'>
-                        <h3 class='l-product__content__title l-product__content__tech__title'>techtec</h3>
-                        <p class='l-product__content__subtitle l-product__content__tech__subtitle'>(テックテク)</p>
-                        <p class='l-product__content__desc l-product__content__tech__desc'>
-                            仮想通貨・ブロックチェーンに特化した<br />記事発注サービス</p>
-                        <div
-                            class='l-product__content__button l-product__content__tech__button p-product__content__link p-product__content__link__white'>
-                            <a class="c-line__button__text" target="_blank"
-                                href="https://www.techtec.site/">サービスサイトへ</a>
-                        </div>
-                    </div>
-                    <div class='l-product__content__tech__image'>
-                        <img alt="techtec(テックテク)のデバイス"
-                            src="{{ asset('images/img_techtec_device.png') }}" />
-                    </div>
-                    <div class='l-product__content__bg'>
-                        <img alt="techtec(テックテク)の背景"
-                            src="{{ asset('images/bg_techtec.png') }}" />
-                    </div>
-                </a>
-            </div> -->
             <div class='l-product__content__cell l-product__content__english__cell'>
                 <a href='https://hi-blockchain.world/' target='_blank'>
                     <div class='l-product__content__english__image'>
@@ -376,8 +350,20 @@
     <p class='l-recruit__desc'>
         techtecは常に新しい仲間を募集しています。<br />「メンバーの圧倒的な成長」「プロダクトドリブン」「フラットな組織」<br />上記に少しでも共感してもらえる人は、<br />ぜひ一度オフィスに遊びに来てください！<br /><br />共に、"Decentralizedな未来"を創りませんか？
     </p>
-    <div class='l-recruit__button c-line__button c-line__button_white'>
+    <!-- <div class='l-recruit__button c-line__button c-line__button_white'>
         <a class="c-line__button__text c-line__button_white__text" href="/recruit">採用情報</a>
+    </div> -->
+    <div>
+      <a href="/recruit">
+        <img alt="recruit" class="l-recruit__banner__pc"
+        src="{{ asset('images/HOME_RECRUITMENT.png') }}" />
+      </a>
+    </div>
+    <div>
+      <a href="/recruit">
+        <img alt="recruit" class="l-recruit__banner__sp"
+        src="{{ asset('images/SP_HOME_RECRUITMENT.png') }}" />
+      </a>
     </div>
 </div>
 <div class='l-contact'>

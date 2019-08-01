@@ -492,9 +492,11 @@
     }
 
     .l-recruit{
-        background: url('../images/img_top_rec.png') no-repeat center;
-        background-size: 100% auto;
-        padding: 120px 0 100px;
+        // background: url('../images/img_top_rec.png') no-repeat center;
+        // background-size: 100% auto;
+        // background-color: #FF6A00;
+        background: linear-gradient(-135deg, #FCB01E, #ED4219);
+        padding: 60px 0 24px;
         text-align: center;
 
         &__title{
@@ -510,9 +512,19 @@
             line-height: 2;
             color: #FFF;
         }
-        &__button{
-            width: 320px;
-            margin: 64px auto 0;
+        // &__button{
+        //     width: 320px;
+        //     margin: 64px auto 0;
+        // }
+        &__banner{
+          &__pc{
+            width: 400px;
+            height: auto;
+            margin: 52px auto;
+          }
+          &__sp{
+            display: none;
+          }
         }
     }
 
@@ -1063,9 +1075,11 @@
 
 
     .l-recruit{
-        background: url('../images/img_top_rec_sp.png') no-repeat center;
-        background-size: 100% auto;
-        padding: 80px 24px;
+        // background: url('../images/img_top_rec_sp.png') no-repeat center;
+        // background-size: 100% auto;
+        background: linear-gradient(-135deg, #FCB01E, #ED4219);
+        // background-color: #FF6A00;
+        padding: 60px 24px 12px;
         text-align: center;
 
         &__title{
@@ -1075,16 +1089,30 @@
             color: #FFF;
         }
         &__desc{
-            text-align: left;
+            width: 340px;
+            text-align: center;
             margin: 40px 0 0;
             font-size: 14px;
-            font-weight: 500;
+            font-weight: 400;
             line-height: 2;
+            letter-spacing: 0.1px;
             color: #FFF;
         }
-        &__button{
-            width: 240px;
-            margin: 40px auto 0;
+        // &__button{
+        //     width: 240px;
+        //     margin: 40px auto 0;
+        // }
+        &__banner{
+          &__pc{
+            display: none;
+            width: 320px;
+            height: auto;
+          }
+          &__sp{
+            margin: 36px auto;
+            width: 200px;
+            height: auto;
+          }
         }
     }
 
