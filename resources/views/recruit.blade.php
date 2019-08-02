@@ -29,10 +29,10 @@
             <div class='l-body__title i-recruit__value_title recruit_title_middle'>
                 <h2 class='l-body__heading l-body__heading i-recruit__heading'>
                     VALUE
-                    <span class='l-body__subhead l-body__subhead i-recruit__subhead'>
-                        価値観・行動指針
-                    </span>
                 </h2>
+                <span class='l-body__subhead l-body__subhead i-recruit__subhead'>
+                  価値観・行動指針
+                </span>
             </div>
             <!-- ここまで -->
 
@@ -41,17 +41,27 @@
                 <div class='i-recruit__value__composes_list'>
                   <h3 class='i-recruit__value__composes_list_title'>"Challenge Growth"</h3>
                   <p class='i-recruit__value__composes_list_text'>どんなときも限界に挑み続けよう。貪欲に、大胆に、成長を第一に。</p>
-                  <span class='i-recruit__value__composes_list_bg'>"CHALLENGE GROWTH”</span>
+                  <!-- <span class='i-recruit__value__composes_list_bg'>"CHALLENGE GROWTH”</span> -->
                 </div>
                 <div class='i-recruit__value__composes_list'>
                   <h3 class='i-recruit__value__composes_list_title'>"Think Simple"</h3>
                   <p class='i-recruit__value__composes_list_text'>何事もシンプルに考えよう。重要なことはただ一つ、選択と集中。</p>
-                  <span class='i-recruit__value__composes_list_bg'>"THINK SIMPLE”</span>
+                  <!-- <span class='i-recruit__value__composes_list_bg'>"THINK SIMPLE”</span> -->
                 </div>
                 <div class='i-recruit__value__composes_list'>
                   <h3 class='i-recruit__value__composes_list_title'>"Be Yourself"</h3>
                   <p class='i-recruit__value__composes_list_text'>自分自身を、まわりを、そして世界を明るくしよう。笑顔と素直がキーワード。</p>
-                  <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span>
+                  <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
+                </div>
+                <div class='i-recruit__value__composes_list'>
+                  <h3 class='i-recruit__value__composes_list_title'>"One for all, all for one"</h3>
+                  <p class='i-recruit__value__composes_list_text'>1人はみんなのために、みんなでユーザーのために。</p>
+                  <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
+                </div>
+                <div class='i-recruit__value__composes_list'>
+                  <h3 class='i-recruit__value__composes_list_title'> "Go Global"</h3>
+                  <p class='i-recruit__value__composes_list_text'>世界に目を向けよう。世界を意識しよう。テクノロジーは国境を超えていく。</p>
+                  <!-- <span class='i-recruit__value__composes_list_bg'>"BE YOURSELF”</span> -->
                 </div>
                 <div class="blank"></div>
               </div>
@@ -267,6 +277,12 @@
                     <h3 class='i-recruit__team__name'>Yumi Fujisawa</h3>
                     <p class='i-recruit__team__role'>Global Alliance Manager</p>
                 </div>
+                <!-- <div class='i-recruit__team__list' data-id='9'>
+                    <img class="i-recruit__team__thumb" alt="and you"
+                        src="{{ asset('images/andyou.png') }}" />
+
+                    <p class='i-recruit__team__role'>And YOU...</p>
+                </div> -->
             </div>
         </div>
         <div class='i-recruit__message'>
@@ -276,21 +292,126 @@
             </div>
             <div class='i-recruit__message__content'>
 
-              <div class="i-recruit__message_img">
+              <div class="i-recruit__message_img message_pc">
                 <img alt="CEO 田上智裕" class="i-recruit__message_img_picture"
                 src="{{ asset('images/team_tagami.jpg') }}" />
-                <p class='i-recruit__message__name'>代表取締役 田上智裕</p>
+                <p class='i-recruit__message__ceo'>代表取締役 CEO</p>
+                <p class='i-recruit__message__tagami'>田上智裕</p>
+                <p class='i-recruit__message__name'>TAGAMI TOMOHIRO</p>
+                <div class='i-recruit__message__introduce'>
+                  <p>株式会社techtec CEO。チームラボでのアプリ開発やリクルートホールディングスでのブロックチェーン全社R&Dを経て、2018年1月に株式会社techtecを創業しました。ブロックチェーンの学習サービス「PoL(ポル)」を運営。</p>
+                </div>
               </div>
 
               <div class='i-recruit__message__content__text'>
                 <h3 class='i-recruit__message__heading'>個人の時代はさらに加速する</h3>
-                <p class='i-recruit__message__desc'>
-                  「副業推奨」「フリーランス」「リモートワーク」...</br>今後ますます、個人を中心とした社会は加速していきます。</br></br>techtecには、「年功序列」「定時出勤、定時退社」...</br>こういった従来の固定観念に囚われた働き方に違和感を感じたメンバーが集まり、次世代の社会に最適なプロダクトの開発を進めています。</br></br>また、理想とする社会を実現すべく、ブロックチェーンを駆使した教育・人材事業に注力しています。</br>ブロックチェーンには「非中央集権」というテーマが存在し、それは従来の型にはまったあらゆるものを刷新し、より個人を重視した社会を作り上げるためのテクノロジーです。</br></br>人工知能やブロックチェーンなどのテクノロジーがリードする次世代社会においては、日本のような階層型組織や時間に縛られたワークスタイルは全く機能しなくなります。</br></br>techtecでは、「個人の成長をサポートし、誰もが自由に生きていける世界を作る。」というミッションの元、あらゆる人材が個人として活躍できる社会の実現を目指します。
-                </p>
+                <div class='i-recruit__message__desc'>
+                  <p>「副業推奨」「フリーランス」「リモートワーク」...</p>
+                  <p>今後ますます、個人を中心とした社会は加速していきます。</p>
+                  <p>techtecには、「年功序列」「定時出勤、定時退社」...こういった従来の固定観念に囚われた働き方に違和感を感じたメンバーが集まり、次世代の社会に最適なプロダクトの開発を進めています。</p>
+                  <p>また、理想とする社会を実現すべく、ブロックチェーンを駆使した教育・人材事業に注力しています。</p>
+                  <p>ブロックチェーンには「非中央集権」というテーマが存在し、それは従来の型にはまったあらゆるものを刷新し、より個人を重視した社会を作り上げるためのテクノロジーです。</p>
+                  <p>人工知能やブロックチェーンなどのテクノロジーがリードする次世代社会においては、日本のような階層型組織や時間に縛られたワークスタイルは全く機能しなくなります。</p>
+                  <p>techtecでは、「個人の成長をサポートし、誰もが自由に生きていける世界を作る。」というミッションの元、あらゆる人材が個人として活躍できる社会の実現を目指します。</p>
+                </div>
                 <!-- <p class='i-recruit__message__name'>代表取締役 田上智裕</p> -->
               </div>
+
+              <div class='message_sp'>
+                <div class="i-recruit__message_img">
+                  <img alt="CEO 田上智裕" class="i-recruit__message_img_picture"
+                  src="{{ asset('images/team_tagami.jpg') }}" />
+                </div>
+                <p class='i-recruit__message__ceo'>代表取締役 CEO</p>
+                <p class='i-recruit__message__tagami'>田上智裕</p>
+                <p class='i-recruit__message__name'>TAGAMI TOMOHIRO</p>
+                <div class='i-recruit__message__desc'>
+                  <p>株式会社techtec CEO。チームラボでのアプリ開発やリクルートホールディングスでのブロックチェーン全社R&Dを経て、2018年1月に株式会社techtecを創業しました。ブロックチェーンの学習サービス「PoL(ポル)」を運営。</p>
+                </div>
+              </div>
+
             </div>
         </div>
+
+        <div class='i-recruit__feature'>
+          <section>
+            <div class='l-body__title i-recruit_title'>
+                <h2 class='l-body__heading i-recruit__heading'>FEATURE</h2>
+                <p class='l-body__subhead i-recruit__subhead'>techteらしさ</p>
+            </div>
+
+            <ul class='i-recruit__feature__content'>
+
+              <li class='i-recruit__feature__item'>
+                <div class='growth'>
+                  <div class='i-recruit__feature__item__thumb'>
+                    <img class='i-recruit__feature__item__img' alt="growth_1"
+                    src="{{ asset('images/04_RECRUIT/feature01.jpg') }}" />
+                    <img class='i-recruit__feature__item__img growth_2' alt="growth_2"
+                    src="{{ asset('images/04_RECRUIT/feature02.jpg') }}" />
+                  </div>
+                  <div class='i-recruit__feature__item__title'>
+                    <p>成長をサポート</p>
+                  </div>
+                  <div class='i-recruit__feature__item__desc'>
+                    <p>techtecチームのミッションである「個人の成長」をサポートするために、まずはチームの成長を何よりも優先して考えます。</p>
+                    <p>特に、グローバルを前提に事業を展開するために必要な英語力の学習機会には力を入れており、PoLの英語コースを無料で解放しています。また、書籍の購入やイベント参加費の負担だけでなく、社内での勉強会も定期開催しています。</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class='i-recruit__feature__item'>
+                <div class='environment'>
+                  <img class='i-recruit__feature__item__img' alt="environment_1"
+                  src="{{ asset('images/04_RECRUIT/feature03.jpg') }}" />
+                  <img class='i-recruit__feature__item__img environment_2' alt="environment_2"
+                  src="{{ asset('images/04_RECRUIT/feature04.jpeg') }}" />
+                  <div class='i-recruit__feature__item__title'>
+                    <p>働きやすさを重視</p>
+                  </div>
+                  <div class='i-recruit__feature__item__desc'>
+                    <p>次世代のテクノロジーファーストな事業を展開しているため、働きやすさも”モダン”にアップデートが進んでいます。具体的には、フレックスタイム制の導入やお昼寝推奨の社風などがあげられます。</p><p>また、休日働く替わりに平日休む「振替休暇」の制度も実施しています。もちろん服装は自由です。</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class='i-recruit__feature__item'>
+                <div class='office'>
+                  <img class='i-recruit__feature__item__img' alt="office_1"
+                  src="{{ asset('images/04_RECRUIT/feature05.jpg') }}" />
+                  <img class='i-recruit__feature__item__img office_2' alt="office_2"
+                  src="{{ asset('images/04_RECRUIT/feature06.jpg') }}" />
+                  <div class='i-recruit__feature__item__title'>
+                    <p>快適なオフィス環境</p>
+                  </div>
+                  <div class='i-recruit__feature__item__desc'>
+                    <p>毎日でも来たくなる会社を目指して、1日の大部分を過ごすオフィス環境も充実させています。1Fには健康食に定評のある社食が、作業スペースにはウォーターサーバーとオフィスコンビニがあります。</p><p>また、宅配物もオフィスに届けてOKです。50名以上が着席可能なイベントスペースもあるため、社内外でのイベント開催も自由に行うことができます。</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class='i-recruit__feature__item'>
+                <div class='guest'>
+                  <img class='i-recruit__feature__item__img' alt="guest_1"
+                  src="{{ asset('images/04_RECRUIT/feature07.jpg') }}" />
+                  <img class='i-recruit__feature__item__img guest_2' alt="guest_2"
+                  src="{{ asset('images/04_RECRUIT/feature08.png') }}" />
+                  <div class='i-recruit__feature__item__title'>
+                    <p>業界の著名人に話が聞ける</p>
+                  </div>
+                  <div class='i-recruit__feature__item__desc'>
+                    <p>techtecチームの運営するオンライン学習サービス「PoL(ポル)」は、独自トークンを組み込んだ日本初の学習サービスです。</p><p>ブロックチェーン業界での認知度は非常に高く、techtecチームの横の繋がりが広いことが特徴的です。業界のキーパーソンを紹介する社内ブログでは、毎回豪華な方々に登場してもらっています。</p>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </section>
+        </div>
+
+
+
+
         <div class='i-recruit__position'>
             <div class='l-body__title i-recruit_title'>
                 <h2 class='l-body__heading l-body__heading_arrange i-recruit__heading'>
